@@ -19,14 +19,14 @@ app:
   # number of instances
   instances:
     # min number of instances. can be 0 for scale to 0. default to 1.
-    min: 3
+    min: 2
     
     # max number of instances. defaults to 1 if min == 0, otherwise defaults to min
-    max: 6
+    max: 4
     
   resources:
     # max cpu. memory limit is based on cpu value: 1:4 memory ratio, e.g. 1 cpu == 4 gb
-    cpu: 1
+    cpu: 2
   java: 8
 
   # To get an external URL to access the application
